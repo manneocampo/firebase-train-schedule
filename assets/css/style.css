@@ -2,3 +2,8 @@
 	background-color: #4682B4;
 	color: white;
 }
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
