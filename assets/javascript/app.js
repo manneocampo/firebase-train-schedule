@@ -1,5 +1,12 @@
 // Initialize Firebase
-var config;
+var config = {
+  fKey: "",
+  authDomain: "train-schedule-15b64.firebaseapp.com",
+  databaseURL: "https://train-schedule-15b64.firebaseio.com",
+  projectId: "train-schedule-15b64",
+  storageBucket: "train-schedule-15b64.appspot.com",
+  messagingSenderId: "509214606552"
+};
   firebase.initializeApp(config);
 
 var database = firebase.database();
