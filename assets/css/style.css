@@ -1,9 +1,33 @@
-.jumbotron {
-	background-color: #4682B4;
+.headerDiv {
+	background-color: #a94442;
 	color: white;
 }
 
 body{
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.panel-color {
+	background-color:#a94442;
+}
+
+.panel-primary {
+  border-color: #a94442;
+}
+
+.panel-heading {
+	background-color: #a94442;
+  border-color: #a94442;
+}
+
+
+.panel-primary>.panel-heading {
+	background-color: #a94442;
+  border-color: #a94442;
+}
+
+#add-train {
+	background-color: #a94442;
+	border-color: #a94442;
 }
